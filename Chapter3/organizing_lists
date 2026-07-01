@@ -1,0 +1,30 @@
+cars = ['bmw' , 'audi', 'toyota' , 'suburu']
+
+# sort alphabetically
+cars.sort()
+print(cars)
+
+# sort in reverse_alphabetical
+cars.sort(reverse=True)
+print(cars)
+
+""" 
+print a sorted list while maintaining the orginal order
+once we use the sort() method once, the orginal order of 
+given list is not maintained. Using the sorted() method 
+we are able to access the list's orignal order. 
+"""
+print("Here is the original list:")
+print(cars)
+
+
+print("\nHere is the sorted list")
+print(sorted(cars))
+
+print("\nHere is the orginal list again:")
+print(cars)
+
+# finding the length of a list 
+print(len(cars))
+print(cars)
+
