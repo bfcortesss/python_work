@@ -42,5 +42,3 @@ print(name == 'brian')
 
 print("\nThe following will be false.")
 print(name != 'brian')
-
-# 5th set of tests 
